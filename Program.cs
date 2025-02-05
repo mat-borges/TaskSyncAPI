@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using TaskSyncAPI.Models;
+using TaskSyncAPI.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using TaskManager.Models;
+using TaskSyncAPI.Models;
 
-namespace TaskManager.Data;
+namespace TaskSyncAPI.Data;
 
 public class AppDbContext : DbContext {
 	public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
