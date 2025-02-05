@@ -17,4 +17,4 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.RunAsync();
+await app.RunAsync();
